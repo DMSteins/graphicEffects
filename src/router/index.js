@@ -4,11 +4,6 @@ import HomeView from '../views/HomeView.vue'
 export const routerOptions = [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/pixel',
       name: 'pixel',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
