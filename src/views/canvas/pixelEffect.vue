@@ -96,7 +96,6 @@ onMounted(() => {
 </script>
 <template>
     <div>
-        111
         <div>
             <canvas @mouseenter="movePoints" @mouseleave="mouseleave" ref="canvasRef" :width="w" :height="h" class="canvas"></canvas>
         </div>
